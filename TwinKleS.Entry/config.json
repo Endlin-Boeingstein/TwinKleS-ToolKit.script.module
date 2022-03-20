@@ -1,0 +1,11 @@
+{
+	"byte_stream_use_big_endian": false,
+	"json_write": {
+		"buffer_size": "128m",
+		"format": {
+			"disable_trailing_comma": false,
+			"disable_array_wrap_line": false,
+		},
+	},
+	"pause_when_finish": true,
+}

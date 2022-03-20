@@ -1,0 +1,344 @@
+{
+	"entry": "TwinKleS.Entry",
+	"module": [
+		{
+			"name": "TwinKleS.version",
+			"configurable": false,
+			"dependency": [],
+		},
+		{
+			"name": "TwinKleS.utility",
+			"configurable": false,
+			"dependency": [],
+		},
+		{
+			"name": "TwinKleS.CoreX",
+			"configurable": false,
+			"dependency": [
+				"TwinKleS.utility",
+			],
+		},
+		{
+			"name": "TwinKleS.io",
+			"configurable": false,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+			],
+		},
+		{
+			"name": "TwinKleS.Support.PAKResourcePacker",
+			"configurable": false,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+				"TwinKleS.io",
+			],
+		},
+		{
+			"name": "TwinKleS.Support.DZResourcePacker",
+			"configurable": false,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+				"TwinKleS.io",
+			],
+		},
+		{
+			"name": "TwinKleS.Support.PopcapTexture",
+			"configurable": false,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+			],
+		},
+		{
+			"name": "TwinKleS.Support.PopcapAnimation.Convert.common",
+			"configurable": false,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+			],
+		},
+		{
+			"name": "TwinKleS.Support.PopcapAnimation.Convert.Flash",
+			"configurable": false,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+				"TwinKleS.Support.PopcapAnimation.Convert.common",
+			],
+		},
+		{
+			"name": "TwinKleS.Support.PopcapAnimation.Convert.Compute",
+			"configurable": false,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+				"TwinKleS.Support.PopcapAnimation.Convert.common",
+			],
+		},
+		{
+			"name": "TwinKleS.Support.PvZ2JSONGenericGetter",
+			"configurable": false,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+			],
+		},
+		{
+			"name": "TwinKleS.Support.PvZ2LawnStringText",
+			"configurable": false,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+			],
+		},
+		{
+			"name": "TwinKleS.Support.PvZ2RSB.ResourceManifest",
+			"configurable": false,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+				"TwinKleS.Support.PvZ2JSONGenericGetter",
+			],
+		},
+		{
+			"name": "TwinKleS.Support.PvZ2RSB.ResourceExtract",
+			"configurable": false,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+				"TwinKleS.io",
+				"TwinKleS.Support.PvZ2RSB.ResourceManifest",
+				"TwinKleS.Support.PopcapTexture",
+				"TwinKleS.Support.PopcapAnimation.Convert.Flash",
+				"TwinKleS.Support.PopcapAnimation.Convert.Compute",
+			],
+		},
+		{
+			"name": "TwinKleS.Executor",
+			"configurable": false,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+				"TwinKleS.io",
+			],
+		},
+		{
+			"name": "TwinKleS.Entry",
+			"configurable": true,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+				"TwinKleS.io",
+				"TwinKleS.Executor",
+			],
+		},
+		{
+			"name": "TwinKleS.Entry.suggestion.fs.js",
+			"configurable": true,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+				"TwinKleS.io",
+				"TwinKleS.Executor",
+				"TwinKleS.Entry",
+			],
+		},
+		{
+			"name": "TwinKleS.Entry.suggestion.fs.json",
+			"configurable": true,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+				"TwinKleS.io",
+				"TwinKleS.Executor",
+				"TwinKleS.Entry",
+			],
+		},
+		{
+			"name": "TwinKleS.Entry.suggestion.fs.data.base64",
+			"configurable": true,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+				"TwinKleS.io",
+				"TwinKleS.Executor",
+				"TwinKleS.Entry",
+			],
+		},
+		{
+			"name": "TwinKleS.Entry.suggestion.fs.data.xor",
+			"configurable": true,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+				"TwinKleS.io",
+				"TwinKleS.Executor",
+				"TwinKleS.Entry",
+			],
+		},
+		{
+			"name": "TwinKleS.Entry.suggestion.fs.data.zlib",
+			"configurable": true,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+				"TwinKleS.io",
+				"TwinKleS.Executor",
+				"TwinKleS.Entry",
+			],
+		},
+		{
+			"name": "TwinKleS.Entry.suggestion.fs.data.hash",
+			"configurable": true,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+				"TwinKleS.io",
+				"TwinKleS.Executor",
+				"TwinKleS.Entry",
+			],
+		},
+		{
+			"name": "TwinKleS.Entry.suggestion.fs.rton",
+			"configurable": true,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+				"TwinKleS.io",
+				"TwinKleS.Executor",
+				"TwinKleS.Entry",
+			],
+		},
+		{
+			"name": "TwinKleS.Entry.suggestion.fs.package.pak",
+			"configurable": true,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+				"TwinKleS.io",
+				"TwinKleS.Executor",
+				"TwinKleS.Entry",
+				"TwinKleS.Support.PAKResourcePacker",
+			],
+		},
+		{
+			"name": "TwinKleS.Entry.suggestion.fs.package.dz",
+			"configurable": true,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+				"TwinKleS.io",
+				"TwinKleS.Executor",
+				"TwinKleS.Entry",
+				"TwinKleS.Support.DZResourcePacker",
+			],
+		},
+		{
+			"name": "TwinKleS.Entry.suggestion.fs.package.rsgp",
+			"configurable": true,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+				"TwinKleS.io",
+				"TwinKleS.Executor",
+				"TwinKleS.Entry",
+			],
+		},
+		{
+			"name": "TwinKleS.Entry.suggestion.fs.package.rsb",
+			"configurable": true,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+				"TwinKleS.io",
+				"TwinKleS.Executor",
+				"TwinKleS.Entry",
+			],
+		},
+		{
+			"name": "TwinKleS.Entry.suggestion.fs.package.rsb.extract_resource",
+			"configurable": true,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+				"TwinKleS.io",
+				"TwinKleS.Executor",
+				"TwinKleS.Entry",
+				"TwinKleS.Support.PvZ2RSB.ResourceExtract",
+			],
+		},
+		{
+			"name": "TwinKleS.Entry.suggestion.fs.package.rsb.smf",
+			"configurable": true,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+				"TwinKleS.io",
+				"TwinKleS.Executor",
+				"TwinKleS.Entry",
+			],
+		},
+		{
+			"name": "TwinKleS.Entry.suggestion.fs.image.popcap_texture",
+			"configurable": true,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+				"TwinKleS.io",
+				"TwinKleS.Executor",
+				"TwinKleS.Entry",
+				"TwinKleS.Support.PopcapTexture",
+			],
+		},
+		{
+			"name": "TwinKleS.Entry.suggestion.fs.animation.popcap_animation",
+			"configurable": true,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+				"TwinKleS.io",
+				"TwinKleS.Executor",
+				"TwinKleS.Entry",
+				"TwinKleS.Support.PopcapAnimation.Convert.Flash",
+				"TwinKleS.Support.PopcapAnimation.Convert.Compute",
+			],
+		},
+		{
+			"name": "TwinKleS.Entry.suggestion.fs.audio.wwise_sound_bank",
+			"configurable": true,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+				"TwinKleS.io",
+				"TwinKleS.Executor",
+				"TwinKleS.Entry",
+			],
+		},
+		{
+			"name": "TwinKleS.Entry.suggestion.fs.audio.wwise_encoded_media",
+			"configurable": true,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+				"TwinKleS.io",
+				"TwinKleS.Executor",
+				"TwinKleS.Entry",
+			],
+		},
+		{
+			"name": "TwinKleS.Entry.suggestion.fs.expand.pvz2.lawn_string_text",
+			"configurable": true,
+			"dependency": [
+				"TwinKleS.utility",
+				"TwinKleS.CoreX",
+				"TwinKleS.io",
+				"TwinKleS.Executor",
+				"TwinKleS.Entry",
+				"TwinKleS.Support.PvZ2LawnStringText",
+			],
+		},
+	],
+}

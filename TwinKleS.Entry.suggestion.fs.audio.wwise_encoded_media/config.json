@@ -1,0 +1,8 @@
+{
+	"tool": {
+		"ffmpeg": "C:/ProgramData/TwinKleS/TwinKleS-ToolKit/extern/ffmpeg.exe",
+		"ww2ogg": "C:/ProgramData/TwinKleS/TwinKleS-ToolKit/extern/ww2ogg.exe",
+		"ww2ogg_pcb": "C:/ProgramData/TwinKleS/TwinKleS-ToolKit/extern/packed_codebooks_aoTuV_603.bin",
+	},
+	"temp_directpry": "C:/ProgramData/TwinKleS/TwinKleS-ToolKit/temp",
+}
